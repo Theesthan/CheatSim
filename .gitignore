@@ -1,0 +1,8 @@
+/venv
+.vs.vscode/  
+__pycache__/  
+log/  
+logs/  
+*.bz2  
+install.log 
+models/*.dat  

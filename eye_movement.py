@@ -4,7 +4,7 @@ import numpy as np
 
 # Load dlib’s face detector and 68 landmarks model
 detector = dlib.get_frontal_face_detector()
-predictor = dlib.shape_predictor(r"C:\Users\butta\FYP - 1\Cheating-Surveillance-System\models\shape_predictor_68_face_landmarks.dat")
+predictor = dlib.shape_predictor(r"models/shape_predictor_68_face_landmarks.dat")
 
 def detect_pupil(eye_region):
     if eye_region.size == 0:
